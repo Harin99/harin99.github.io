@@ -39,6 +39,9 @@
               </td>
             </tr>
           </tbody></table>
+
+<!-- Publications --> 
+
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
@@ -84,73 +87,106 @@
         |
         <a href="">arXiv</a>
         ]
-        <p></p>
+        <!-- <p></p> -->
         <p>
-        - We propose a benchmark synthetic dataset for collaboriatve SLAM for multiple service robots. 
-        To reflect the real-world situations in service environments, our dataset includes various challenging cases (e.g., homogeneous textures, dynamic objects etc) and realistic scenarios.
-        </p>
+        - Propose a benchmark synthetic dataset for collaboriatve SLAM for multiple service robots. 
         <font color="red">- Presented in Synthetic Data for Computer Vision Workshop at CVPR 2024 
           (Long paper honorable mention Award).</font>
+        </p>
       </td>
     </tr>   
  
   </tbody></table>
 
-          
-          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-            <tr>
-              <td>
-                <h2>Education</h2>
-                <br>
-                <li>M.S in Artificial Intelligence Graduate School, UNIST (2022.09 ~ 2024.09)</li>
-                <li>Bachelor in Geospatial Information, Pukyung National University (2017.03. ~ 2021.02)</li>
-              </td>
-            </tr>
-          </tbody></table>
-          <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-          
-          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-            <tr>
-              <td>
-                <h2>Projects</h2>
-                <br>
-                <li>Depth estimation combining events and images (2023.9 ~ 2024.6)</li>
-                <li>Depth estimation basecd on omnidirectional cameras (2023.9 ~ )</li>
-                <li>Collaborative SLAM benchmark dataset, funded by IITP (2023.09 ~ )</li>
-                <li>Aerial Triangulation using ground control point chips (2021.05 ~ 2021.05)</li>
-                <li>LiDAR sensor modeling in simulation, funded by ETRI (2021.03 ~ 2022.02)</li>
-                <!-- <li>Novel view synthesis, funded by Bucketplace (2023.09 ~ )</li> -->
-                <!-- <li>Commonsense based 3D human pose estimation, funded by IITP (2022.03 ~ )</li> -->
-              </td>
-            </tr>
-          </tbody></table>
-          <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+  <!-- Projects -->  
+      
+  <table width="100%" align="center" border="0" cellpadding="20">
+    <heading>Projects</heading>
+  <tr onmouseout="evdepth_stop()" onmouseover="evdepth_start()">
+  <td width="25%">
+    <div class="one">
+    <div align="center" class="two" id='evdepth_gif'><img src='images/evdepth.png' width="150" height="150"></div>
+    <div align="center" class="two" id='evdepth_image'><img src='images/evdepth.png' width="200"></div>
+    </div>
+    <script type="text/javascript">
+    function evdepth_start() {
+    document.getElementById('evdepth_gif').style.opacity = "1";
+    }
+    function evdepth_stop() {
+    document.getElementById('evdepth_gif').style.opacity = "0";
+    }
+    evdepth_stop()
+    </script>
+  </td>
+    <td width="75%" valign="top">
+    <p>
+      <papertitle>Depth estimation combining events and images</papertitle>
+  <em>Graduate project, (2023.9 ~ 2024.6)</em><br>
+      <p></p>
+      <p></p>
+      Propose a monocular depth estimation model via the fusion of events and images. 
+  <br>
+      Utilize the event refinement module to remove event noises and enhance the real events.
+  <br>
+  Adapt the local distribution learning method to work well in outdoor environments with a wide depth range and consider the local details of the events.
+    </p>
+    </p>
+    </td>
+  </tr>
 
-          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-            <tr>
-              <td>
-                <h2>Teaching</h2>
-                <br>
-                <li>Introduction to robotics course, UNIST (2023.9 ~ 2023.12) </li>
-                <li>Photogrammetry, University of Seoul (2021.9 ~ 2021.12) </li>
-              </td>
-            </tr>
-          </tbody></table>
-          <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+  <!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+    <tr>
+      <td>
+        <h2>Projects</h2>
+        <br>
+        <li>Depth estimation combining events and images (2023.9 ~ 2024.6)</li>
+        <li>Depth estimation basecd on omnidirectional cameras (2023.9 ~ )</li>
+        <li>Collaborative SLAM benchmark dataset, funded by IITP (2023.09 ~ )</li>
+        <li>Aerial Triangulation using ground control point chips (2021.05 ~ 2021.05)</li>
+        <li>LiDAR sensor modeling in simulation, funded by ETRI (2021.03 ~ 2022.02)</li>
+      </td>
+    </tr>
+  </tbody></table>
+  <table width="100%" align="center" border="0" cellpadding="20"><tbody> -->
+
+          
+  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+    <tr>
+      <td>
+        <h2>Education</h2>
+        <br>
+        <li>M.S in Artificial Intelligence Graduate School, UNIST (2022.09 ~ 2024.09)</li>
+        <li>Bachelor in Geospatial Information, Pukyung National University (2017.03. ~ 2021.02)</li>
+      </td>
+    </tr>
+  </tbody></table>
+  <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+  
+  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+    <tr>
+      <td>
+        <h2>Teaching</h2>
+        <br>
+        <li>Introduction to robotics course, UNIST (2023.9 ~ 2023.12) </li>
+        <li>Photogrammetry, University of Seoul (2021.9 ~ 2021.12) </li>
+      </td>
+    </tr>
+  </tbody></table>
+  <table width="100%" align="center" border="0" cellpadding="20"><tbody>
             
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px">
-                <br>
-                <p style="text-align:right;font-size:small;">
-                  Template from this <a href="https://github.com/jonbarron/jonbarron_website">website</a>.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-        </td>
-      </tr>
-    </table>
-  </body>
+  </tbody></table>
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr>
+      <td style="padding:0px">
+        <br>
+        <p style="text-align:right;font-size:small;">
+          Template from this <a href="https://github.com/jonbarron/jonbarron_website">website</a>.
+        </p>
+      </td>
+    </tr>
+  </tbody></table>
+</td>
+</tr>
+</table>
+</body>
 </html>
