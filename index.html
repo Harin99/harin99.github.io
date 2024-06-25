@@ -22,10 +22,11 @@
                 <p class="name" style="text-align: center;">
                   Harin Park
                 </p>
-                <p>I'm a master student in <a href="https://unist.info/">3D Vision & Robotics Lab</a> in Artificial Intelligence at UNIST, supervised by <a href="https://unist.info/?page_id=194">Kyungdon Joo</a>.
+                <p>I'm a master student in <a href="https://unist.info/">3D Vision & Robotics Lab</a> in Artificial Intelligence at UNIST, advised by <a href="https://unist.info/?page_id=194">Kyungdon Joo</a>.
                 </p>
                 <p>
-                  I am interested in 3D vision, Computer vision, and Robotics. In particular, I am currently focusing on the AI perception tasks for robot navigation and autonomous driving, such as depth estimation.
+                  I am interested in 3D vision, Computer vision, and Robotics. 
+                  In particular, I am currently focusing on the AI perception tasks for robot navigation and autonomous driving, such as depth estimation.
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:harinp33@unist.ac.kr">Email</a> &nbsp;/&nbsp;
@@ -85,16 +86,56 @@
         [
         <a href="https://github.com/vision3d-lab/CSE_Dataset">Project page</a>
         |
-        <a href="">arXiv</a>
+        <a href="">Paper</a>
         ]
         <!-- <p></p> -->
         <p>
-        <li>Propose a benchmark synthetic dataset for collaboriatve SLAM for multiple service robots.</li>
+        <li>Propose a benchmark synthetic dataset for C-SLAM for multiple service robots.</li>
         <li><font color="red">Presented in Synthetic Data for Computer Vision Workshop at CVPR 2024
           (Long paper honorable mention Award).</font></li>
         </p>
       </td>
-    </tr>   
+    </tr>  
+    
+    <tr onmouseout="lidar_stop()" onmouseover="lidar_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='lidar_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/LIDAR_Modeling.png" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/LIDAR_Modeling.png' width="180", stype="margin-bottom: 20px;">
+        </div>
+        <script type="text/javascript">
+          function cse_start() {
+            document.getElementById('lidar_image').style.opacity = "1";
+          }
+
+          function cse_stop() {
+            document.getElementById('lidar_image').style.opacity = "0";
+          }
+          cse_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:top; padding-left: 20px;">
+      <span class="papertitle">Simulation of LiDAR Sensor considering Rainfall Effect (강우 효과를 고려한 라이다 센서 시뮬레이션)</span>
+        <br>
+        <strong>Taeyeon Park</strong>,
+        Gyuseok Lee,
+        Jangwoo Cheon,
+        Impyeong Lee
+        <br>
+        <em>KICS</em>, 2021
+        <br>
+        [
+        <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10587030">Paper</a>
+        ]
+        <!-- <p></p> -->
+        <p>
+        <li>Propose the LiDAR radiometric sensor model reflecting the rainfall effects.</li>
+        </p>
+      </td>
+    </tr>  
  
   </tbody></table>
 
@@ -136,7 +177,7 @@
     <br>
     <p>
     <li>Propose a monocualr depth estimation model via the fusion of events and images.</li>
-    <li>Utilize the event refinement module to remove event noises and enhance the real events.</li>
+    <li>Utilize the event refinement module to remove noises and enhance the real events.</li>
     <li>Adapt the local distribution learning method to work well in outdoor environmetns with a wide depth range and consider the local details of the events.</li>
     </p>
   </td>
