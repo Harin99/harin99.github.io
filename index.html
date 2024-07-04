@@ -154,6 +154,38 @@
 </tbody></table>
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+<tr onmouseout="omni_stop()" onmouseover="omni_start()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='omni_image'><video  width=100% height=100% muted autoplay loop>
+      <source src="images/vision3d_V2.png" type="video/mp4">
+      Your browser does not support the video tag.
+      </video></div>
+      <img src='images/vision3d_V2.png' width="180", stype="margin-bottom: 20px;">
+    </div>
+    <script type="text/javascript">
+      function omni_start() {
+        document.getElementById('omni_image').style.opacity = "1";
+      }
+
+      function omni_stop() {
+        document.getElementById('omni_image').style.opacity = "0";
+      }
+      omni_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:top; padding-left: 20px;">
+  <span class="papertitle">Depth estimation based on omnidirectional cameras</span>
+    <br>
+    <em>On-going project</em>, (2023.9~Present)
+    <br>
+    <p>
+    <li>Propose a structure-aware monocular depth estimation via omnidirectional images.</li>
+    </p>
+  </td>
+</tr>
+
+  
 <tr onmouseout="evdepth_stop()" onmouseover="evdepth_start()">
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
@@ -186,37 +218,6 @@
     </p>
   </td>
 </tr>  
-
-<tr onmouseout="omni_stop()" onmouseover="omni_start()">
-  <td style="padding:20px;width:25%;vertical-align:middle">
-    <div class="one">
-      <div class="two" id='omni_image'><video  width=100% height=100% muted autoplay loop>
-      <source src="images/vision3d_V2.png" type="video/mp4">
-      Your browser does not support the video tag.
-      </video></div>
-      <img src='images/vision3d_V2.png' width="180", stype="margin-bottom: 20px;">
-    </div>
-    <script type="text/javascript">
-      function omni_start() {
-        document.getElementById('omni_image').style.opacity = "1";
-      }
-
-      function omni_stop() {
-        document.getElementById('omni_image').style.opacity = "0";
-      }
-      omni_stop()
-    </script>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:top; padding-left: 20px;">
-  <span class="papertitle">Depth estimation based on omnidirectional cameras</span>
-    <br>
-    <em>On-going project</em>, (2023.9~Present)
-    <br>
-    <p>
-    <li>Propose a structure-aware monocular depth estimation via omnidirectional images.</li>
-    </p>
-  </td>
-</tr>
 
 <tr onmouseout="cse_stop()" onmouseover="cse_start()">
   <td style="padding:20px;width:25%;vertical-align:middle">
