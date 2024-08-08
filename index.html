@@ -99,12 +99,52 @@
         <!-- <p></p> -->
         <p>
         <li>Propose a benchmark synthetic dataset for C-SLAM for multiple service robots.</li>
-        <li><font color="red">Presented in Synthetic Data for Computer Vision Workshop at CVPR 2024
-          (Long paper honorable mention Award).</font></li>
+        <li>Presented in Synthetic Data for Computer Vision Workshop at CVPR 2024
+          <font color="red">(Long paper honorable mention Award).</font></li>
         </p>
       </td>
     </tr>  
     
+    <tr onmouseout="lidar_stop()" onmouseover="lidar_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='lidar_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/LIDAR_Modeling.png" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/LIDAR_Modeling.png' width="180", stype="margin-bottom: 20px;">
+        </div>
+        <script type="text/javascript">
+          function cse_start() {
+            document.getElementById('lidar_image').style.opacity = "1";
+          }
+
+          function cse_stop() {
+            document.getElementById('lidar_image').style.opacity = "0";
+          }
+          cse_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:top; padding-left: 20px;">
+      <span class="papertitle">Modeling and Simulation of Rainfall Effect of Autonomous Driving LiDAR Sensor.</span>
+        <br>
+        <strong>Taeyeon Park</strong>,
+        Jangwoo Cheon,
+        Impyeong Lee
+        <br>
+        <em>GISUP</em>, 2021
+        <br>
+        <!-- [
+        <a href="https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE10587030">Paper</a>
+        ] -->
+        <!-- <p></p> -->
+        <p>
+        <li>Propose the LiDAR radiometric model reflecting the effects that real rain influence to LiDAR sensor.</li>
+        <li>Evaluate the model accuracy through the comparison with real-world LiDAR data.</li>
+        </p>
+      </td>
+    </tr>
+
     <tr onmouseout="lidar_stop()" onmouseover="lidar_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
@@ -143,7 +183,47 @@
         <li>Propose the LiDAR radiometric sensor model reflecting the rainfall effects.</li>
         </p>
       </td>
-    </tr>  
+    </tr>
+
+    <tr onmouseout="at_stop()" onmouseover="at_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='AT_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/AT.png" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/AT.png' width="180", stype="margin-bottom: 20px;">
+        </div>
+        <script type="text/javascript">
+          function cse_start() {
+            document.getElementById('AT_image').style.opacity = "1";
+          }
+
+          function cse_stop() {
+            document.getElementById('AT_image').style.opacity = "0";
+          }
+          cse_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:top; padding-left: 20px;">
+      <span class="papertitle">Evaluation for the validity of introducing GCP Chips in Aerial Triangulation.</span>
+        <br>
+        Jangwoo Cheon,
+        <strong>Taeyeon Park</strong>,        
+        Impyeong Lee
+        <br>
+        <em>ISRS</em>, 2021
+        <br>
+        <!-- [
+        <a href="https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE10587030">Paper</a>
+        ] -->
+        <!-- <p></p> -->
+        <p>
+        <li>Utilize the GCP Chips for the automation of aerial triangulation.</li>
+        <li>Develop the automation technology through image matching between aerial images and GCP Chips.</li>
+        </p>
+      </td>
+    </tr>
  
   </tbody></table>
 
@@ -277,12 +357,12 @@
     </script>
   </td>
   <td style="padding:20px;width:75%;vertical-align:top; padding-left: 20px;">
-  <span class="papertitle">Aerial Triangulation using ground control point (GCP) chips</span>
+  <span class="papertitle">Automation of Aerial Triangulation using ground control point (GCP) chips.</span>
     <br>
     (2021.5 ~ 2021.5)
     <br>
     <p>
-    <li>Propose the use of GCP chips for the automation of aerial triangulation.</li>
+    <li>Utilize the GCP Chips for the automation of aerial triangulation. </li>
     <li>Develop automation technology through image matching between aerial images and GCP chips.</li>
     </p>
   </td>
