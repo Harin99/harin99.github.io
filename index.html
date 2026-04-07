@@ -281,15 +281,24 @@
            ========================================= */
         .publications-header {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
             margin-top: 2.5em;
             margin-bottom: 0.5em;
+            gap: 10px;
         }
 
         .publications-header h2 {
             float: none;
             width: auto;
             margin: 30px 20px 10px 0;
+        }
+
+        .publication-note {
+            font-style: italic;
+            margin: 36px 0 0 0;
+            color: #555;
+            width: 100%;
         }
 
         .pub-buttons {
@@ -536,6 +545,7 @@
         <!-- ================= RESEARCH (JS Generated) ================= -->
         <div class="publications-header">
             <h2>Publications</h2>
+            <p class="publication-note">Formally known as Taeyeon Park</p>
             <!-- <div class="pub-buttons">...</div> -->
         </div>
 
